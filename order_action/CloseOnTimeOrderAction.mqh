@@ -58,10 +58,6 @@ public:
     
     //
     virtual void Execute( void ) {
-        // Preliminary check
-        if ( !this.Test() )
-            return;
-        
         this.Close();
     }
     

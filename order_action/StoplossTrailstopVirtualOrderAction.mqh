@@ -101,10 +101,6 @@ public:
     
     //
     virtual void Execute( void ) {
-        // Preliminary check
-        if ( !this.Test() )
-            return;
-
         // Use GV to store the value
         if ( this.price_trailstop == NULL ) {
             // Try to load

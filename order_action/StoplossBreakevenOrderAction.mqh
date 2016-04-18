@@ -77,11 +77,6 @@ public:
     
     //
     virtual void Execute( void ) {
-        // Preliminary check
-        if ( !this.Test() )
-            return;
-        
-        // Action
         this.ModifyStoploss( this.Breakeven() );
     }
     

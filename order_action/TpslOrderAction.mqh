@@ -59,10 +59,6 @@ public:
     
     //
     virtual void Execute( void ) {
-        // Preliminary check
-        if ( !this.Test() )
-            return;
-        
         if ( this.Takeprofit > 0
             && this.PriceIsOffensive( this.PriceToClose(), this.Takeprofit, false ) )
             this.Close();
