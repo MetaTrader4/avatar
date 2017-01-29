@@ -76,7 +76,7 @@
 // Task
 // =====================================
 
-#include "task/CloseAllExitTask.mqh"
+//@module-notready #include "task/CloseAllExitTask.mqh"
 
 // =====================================
 // Trader
